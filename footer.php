@@ -21,15 +21,12 @@
                       <ul>
                           <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                           <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                       </ul>
                   </div>
 
                   <div class="col-lg-4 col-md-6 footer-newsletter">
                       <h4>Join Our Newsletter</h4>
-                      <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                      <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
                       <form action="" method="post">
                           <input type="email" name="email"><input type="submit" value="Subscribe">
                       </form>
