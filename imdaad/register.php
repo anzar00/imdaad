@@ -1,7 +1,8 @@
 <?php
 
 require './includes/config.php';
-require './includes/handlers/register.php'
+require './includes/handlers/register.php';
+
 ?>
 
 <!DOCTYPE html>

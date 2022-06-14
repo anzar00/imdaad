@@ -33,6 +33,10 @@ if(isset($_POST['register_button'])){
 	$password = strip_tags($_POST['password']); // For removing html tags from input
 	$password2 = strip_tags($_POST['c-password']); // For removing html tags from input
 
+    //Role
+
+    $role = strip_tags($_POST['role']);// For removing html tags from input
+
 	// Sign Up date 
 
 	$date = date("Y-m-d"); // Current date
