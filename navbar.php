@@ -32,7 +32,7 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
-        <a href="#" class="get-started-btn">Log In / Sign Up</a>
+        <a href="./imdaad/login.php" class="get-started-btn">Log In / Sign Up</a>
 
     </div>
 </header>
