@@ -2,7 +2,10 @@
 
 ob_start(); // Turns on output buffering 
 
-session_start();
+if(!isset($_SESSION)){ 
+    session_start(); 
+} 
+
 
 $timezone = date_default_timezone_set("Indian/Mauritius"); // To set default timezone
 

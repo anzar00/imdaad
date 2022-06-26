@@ -1,5 +1,7 @@
 <?php
   $page = "index";
+  require '../includes/config.php';
+  include("./includes/DBQ/chaaragar.php");
 ?>
 
 <!DOCTYPE html>
