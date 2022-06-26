@@ -1,7 +1,7 @@
 <?php
   $page = "profie";
   require '../includes/config.php';
-  include("./includes/classes/yaavar.php");
+  include("./includes/DBQ/yaavar.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,8 +48,8 @@
                     <div class="card">
                         <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-                            <h2>Kevin Anderson</h2>
+                        <img src="../<?php echo getProfilePic() ?>" alt="Profile" class="rounded-circle">
+                            <h2><?php echo getName(); ?></h2>
                             <h3>Web Designer</h3>
                             <div class="social-links mt-2">
                                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -96,7 +96,7 @@
 
                                     <div class="row">
                                         <div class="col-lg-3 col-md-4 label ">Full Name</div>
-                                        <div class="col-lg-9 col-md-8">Kevin Anderson</div>
+                                        <div class="col-lg-9 col-md-8"><?php echo getName(); ?></div>
                                     </div>
 
                                     <div class="row">
@@ -138,7 +138,7 @@
                                         <div class="row mb-3">
                                             <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Profile Image</label>
                                             <div class="col-md-8 col-lg-9">
-                                                <img src="assets/img/profile-img.jpg" alt="Profile">
+                                                <img src="../<?php echo getProfilePic(); ?>" alt="Profile">
                                                 <div class="pt-2">
                                                     <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
                                                     <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
@@ -149,7 +149,7 @@
                                         <div class="row mb-3">
                                             <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Full Name</label>
                                             <div class="col-md-8 col-lg-9">
-                                                <input name="fullName" type="text" class="form-control" id="fullName" value="Kevin Anderson">
+                                                <input name="fullName" type="text" class="form-control" id="fullName" value="<?php echo getName(); ?>">
                                             </div>
                                         </div>
 
