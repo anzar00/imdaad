@@ -21,4 +21,13 @@ if(!isset($_SESSION)){
 		return $row['profile_pic'];
 	}
 
+	//Get role
+	function getRole(){
+		$email = $_SESSION['email'];
+		$con = mysqli_connect("localhost", "root", "", "imdaad");
+		$query = mysqli_query($con, "SELECT role FROM users WHERE email='$email'");
+		$row = mysqli_fetch_array($query);
+		return $row['role'];
+	}
+
 ?>

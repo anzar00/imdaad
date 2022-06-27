@@ -45,14 +45,14 @@
       <div class="row">
 
         <!-- Left side columns -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="row">
 
-            <?php include './views/cards.php' ?>
+            <?php  include './views/cards.php' ?>
 
-            <?php include './views/reports.php' ?>
+            <?php //include './views/reports.php' ?>
 
-            <?php include './views/donations.php' ?>
+            <?php //include './views/donations.php' ?>
 
           </div>
         </div>
@@ -62,15 +62,15 @@
         <div class="col-lg-4">
 
           <!-- Recent Activity -->
-          <?php include './views/activity.php' ?>
+          <?php  //include './views/activity.php' ?>
           <!-- End Recent Activity -->
 
           <!-- Budget Report -->
-          <?php include './views/b_report.php' ?>
+          <?php // include './views/b_report.php' ?>
           <!-- End Budget Report -->
 
           <!-- News & Updates Traffic -->
-          <?php include './views/news.php' ?>
+          <?php // include './views/news.php' ?>
           <!-- End News & Updates -->
 
         </div>
